@@ -1,0 +1,193 @@
+*{
+    margin: 0;padding: 0;
+}
+
+header .bg{
+    position: absolute;
+    width: 100%;
+    height: 740px;
+    background-size: cover;
+    background-image: url(background.jpg);
+    filter: blur(4px);
+    z-index: -1;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav .left img{
+    height: 89px;
+    border-radius: 50px;
+    margin-left: 15px;
+    margin-top: 11px;
+}
+header nav .right ul{
+    margin-top: 32px;
+
+}
+header nav .right ul li{
+    display: inline;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+header nav .right ul li:hover{
+    color: rgba(255, 149, 0, 0.946);
+}
+header .txt{
+    margin-top: 150px;
+    margin-left: 155px;
+}
+header .txt .one{
+    font-size: 78px;
+
+
+}
+header .txt .one span{
+    color:  rgba(255, 149, 0, 0.946);
+
+}
+header .txt .two{
+    font-size: larger;
+    color: white;
+    margin-right: 748px;
+    margin-top: 29px;
+
+}
+header .txt .btn1{
+    color: white;
+    background-color: rgba(255, 149, 0, 0.946);
+    margin-top: 25px;
+    height: 37px;
+    width: 130px;
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+header .txt .btn1:hover{
+    color: rgba(255, 149, 0, 0.946) ;
+    background-color: white;
+    border: 2px solid  rgba(255, 149, 0, 0.946) ;
+}
+.menue{
+    display: flex;
+}
+.menue .menueblock .food{
+    height: 332px;
+    margin-left: 182px;
+    width: 268px;
+    margin-top:251px;
+    transition: all 0.3s ease;
+
+}
+.menue .menueblock .food:hover{
+    height: 345px;
+    width: 279px;
+}
+.menue .menueblock .foodtxt{
+    margin-left: 182px;
+    width: 268px;
+    font-size: 21px;
+    margin-top: 12px;
+
+}
+.menue .menueblock .btn2{
+    margin-left: 252px;
+    /* width: 268px; */
+    /* font-size: 21px; */
+    margin-top: 12px;
+    height: 37px;
+    width: 130px;
+    color: white;
+    background-color: rgba(255, 149, 0, 0.946);
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.menue .menueblock .btn2:hover{
+    color: rgba(255, 149, 0, 0.946) ;
+    background-color: white;
+    border: 2px solid  rgba(255, 149, 0, 0.946) ;
+}
+.second{
+    margin-top: 30px;
+    height: 700px;
+    background-image: url('black-concrete-wall.jpg');
+    width: 100%;
+    position: absolute;
+  
+}
+.second .picture{
+    display: flex;
+    position: absolute; 
+    width: 100%;  
+}
+.second .picture .pic
+{
+    height: 216px;
+    width: 546px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.second .picture .pic .res
+{
+    height: 215px;
+    width: 344px;
+   justify-content: space-between;
+   margin-top: 54px;
+   border-radius: 20px;
+}
+.second .pictext p{
+    font-size: 34px;
+    width: 651px;
+    margin-left: 475px;
+    margin-top: 26px;
+}
+.second  .pictext span{
+    /* font-size: large;
+     */
+     font-size: large;
+     font-size: 64px;
+     width: 651px;
+     color: rgba(255, 149, 0, 0.946) ;
+     margin-left: 475px;
+     margin-top: 26px;
+
+}
+.second  .pictext .para{
+    font-size: large;
+    color: white;
+    /* height: 30px; */
+    width: 651px;
+    margin-left: 475px;
+    margin-top: 26px; 
+
+}
+.second .pictext{
+    margin-top: 307px;
+}
+footer{
+    background-color: rgb(14, 14, 35);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 129px;
+}
+footer .last ul li{
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+footer .last ul li:hover{
+    font-size: 17px;
+
+}
+footer .last{
+    margin-top: 30px;
+}
+footer .last h1{
+    color: rgba(255, 149, 0, 0.946) ;
+}
